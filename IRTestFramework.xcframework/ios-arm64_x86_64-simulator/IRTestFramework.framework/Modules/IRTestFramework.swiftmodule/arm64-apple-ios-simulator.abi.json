@@ -1,0 +1,98 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRTestFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppCenter",
+        "printedName": "AppCenter",
+        "declKind": "Import",
+        "moduleName": "IRTestFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "BugfenderSDK",
+        "printedName": "BugfenderSDK",
+        "declKind": "Import",
+        "moduleName": "IRTestFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Intercom",
+        "printedName": "Intercom",
+        "declKind": "Import",
+        "moduleName": "IRTestFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Amplitude",
+        "printedName": "Amplitude",
+        "declKind": "Import",
+        "moduleName": "IRTestFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "YandexMobileMetrica",
+        "printedName": "YandexMobileMetrica",
+        "declKind": "Import",
+        "moduleName": "IRTestFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "YandexMobileMetricaCrashes",
+        "printedName": "YandexMobileMetricaCrashes",
+        "declKind": "Import",
+        "moduleName": "IRTestFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IRDataManager",
+        "printedName": "IRDataManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "testAvailability",
+            "printedName": "testAvailability()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15IRTestFramework13IRDataManagerC16testAvailabilityyyF",
+            "mangledName": "$s15IRTestFramework13IRDataManagerC16testAvailabilityyyF",
+            "moduleName": "IRTestFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15IRTestFramework13IRDataManagerC",
+        "mangledName": "$s15IRTestFramework13IRDataManagerC",
+        "moduleName": "IRTestFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

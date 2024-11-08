@@ -1,0 +1,6 @@
+framework module IRTestFramework {
+  umbrella header "IRTestFramework.h"
+  export *
+
+  module * { export * }
+}
