@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "IRTestFramework"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.2"
   spec.summary      = "IRTestFramework to test ABI stability" 
   spec.static_framework = true;
   spec.description  = <<-DESC

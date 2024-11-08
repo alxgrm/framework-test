@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "IRTestFramework",
+    "printedName": "IRTestFramework",
     "children": [
       {
         "kind": "Import",
@@ -62,6 +62,27 @@
         "printedName": "IRDataManager",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IRDataManager",
+                "printedName": "IRTestFramework.IRDataManager",
+                "usr": "s:15IRTestFramework13IRDataManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15IRTestFramework13IRDataManagerCACycfc",
+            "mangledName": "$s15IRTestFramework13IRDataManagerCACycfc",
+            "moduleName": "IRTestFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "testAvailability",
             "printedName": "testAvailability()",
@@ -89,7 +110,22 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
